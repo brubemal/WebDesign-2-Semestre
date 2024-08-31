@@ -6,19 +6,24 @@
     <title>Formulario Aula2</title>
 </head>
 <body style="background-color: darkgray;">
+    <form action=“https://www.w3schools.com/action_page.php”>
     <h1 style="background-color: gray;">Formulario</h1>
     <br>
     <label for="date">Data:</label>
     <br>
     <input type="date" name="Data" id="Data">
     <br><br>
+    <fieldset style="background-color: gray;">
     <label for="text">Usuário:</label> 
     <br>
     <input minlength="6" maxlength="16" type="text" name="Usuário:" id="Usuário:">
     <br>
-    <label for="text">Senha:</label> 
+    <label for="password">Senha:</label> 
     <br>
-    <input minlength="6" maxlength="16" type="text" name="Senha:" id="Senha:">
+    <input minlength="6" maxlength="16" type="password" name="Senha:" id="Senha:">
+    </fieldset>
+    <br>
+    <fieldset style="background-color: gray;">
     <h2>Preenche seus dados:</h2>
     <br>
     <label for="text">Nome:</label>
@@ -37,6 +42,101 @@
     <br>
     <input type="text" name="Complemento" id="Complemento">
     <br>
+    <label for="Cidades">Cidade:</label>
+    <br>
+    <input list="cidades" id="cidades">
+    <datalist id="cidades">
+        <option value="São Paulo">
+        <option value="Rio de Janeiro">
+        <option value="Belo Horizonte">
+        <option value="Porto Alegre">
+        <option value="Curitiba">
+        <option value="Salvador">
+        <option value="Fortaleza">
+        <option value="Recife">
+        <option value="Brasília">
+        <option value="Manaus">
+        <option value="São Bernardo do Campo">
+        <option value="Sorocaba">
+        <option value="São José dos Campos">
+        <option value="Goiânia">
+        <option value="Natal">
+        <option value="João Pessoa">
+        <option value="Maceió">
+        <option value="Campo Grande">
+        <option value="Teresina">
+        <option value="Aracaju">
+        <option value="Cuiabá">
+        <option value="Vitória">
+    </datalist>
+    <br>
+    <label for="estados">Estado:</label><br>
+    <select name="estados" id="estados">
+        <option value="AC">Acre</option>
+        <option value="AL">Alagoas</option>
+        <option value="AP">Amapá</option>
+        <option value="AM">Amazonas</option>
+        <option value="BA">Bahia</option>
+        <option value="CE">Ceará</option>
+        <option value="DF">Distrito Federal</option>
+        <option value="ES">Espírito Santo</option>
+        <option value="GO">Goiás</option>
+        <option value="MA">Maranhão</option>
+        <option value="MT">Mato Grosso</option>
+        <option value="MS">Mato Grosso do Sul</option>
+        <option value="MG">Minas Gerais</option>
+        <option value="PA">Pará</option>
+        <option value="PB">Paraíba</option>
+        <option value="PR">Paraná</option>
+        <option value="PE">Pernambuco</option>
+        <option value="PI">Piauí</option>
+        <option value="RJ">Rio de Janeiro</option>
+        <option value="RN">Rio Grande do Norte</option>
+        <option value="RS">Rio Grande do Sul</option>
+        <option value="RO">Rondônia</option>
+        <option value="RR">Roraima</option>
+        <option value="SC">Santa Catarina</option>
+        <option value="SP">São Paulo</option>
+        <option value="SE">Sergipe</option>
+        <option value="TO">Tocantins</option>
+    </select>
+    <br>
+    <label for="cep">CEP</label><br>
+    <input maxlength="8" minlength="8" type="text">
+    </fieldset>
+    <br><br>
+    <fieldset style="background-color: gray;">
+    <h2>Gênero:</h2>
+    <input type="radio" id="Masculino" name="genero">
+    <label for="Masculino">Masculino</label>
+    
+    <input type="radio" id="Feminino" name="genero">
+    <label for="Feminino">Feminino</label>
+    </fieldset>
+    <br>
+    <fieldset style="background-color: gray;">
+    <h2>Curso:</h2>
+    <input type="checkbox">
+    <label for="ADS">ADS</label><br>
+    <input type="checkbox">
+    <label for="Jogos">Jogos</label><br>
+    <input type="checkbox">
+    <label for="gestão de ti">Gestão de TI</label><br>
+    <input type="checkbox">
+    <label for="banco de dados">Banco de Dados</label><br>
+    </fieldset><br>
+    <fieldset style="background-color: gray;">
+        <h2>Modelo:</h2>
+        <input type="radio" name="modelo">
+        <label for="radio">Presencial</label>
+        <input type="radio" name="modelo">
+        <label for="radio">EAD</label>
+        <input type="radio" name="modelo">
+        <label for="radio">Semi Presencial</label>
+    </fieldset>
+    <input type="submit">
+    </form>
+
     
 </body>
 </html>
