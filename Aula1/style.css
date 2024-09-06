@@ -1,14 +1,34 @@
-nav {
-    background-color: #000000;
-    padding: 10px;
-    font-family: 'Courier New', Courier, monospace;
-}
 {
     margin: 0px;
     padding: 0px;
     border: 0px;
 }
-.margem{
+p{
+    color: black;
+    font-size: 30px;
+}
+
+.texto-verde{
+    color: green;
+}
+
+#texto-azul{
+    color: blue;
+    font-family: 'Minecraft', sans-serif;
+    text-align: center;
+}
+img{
+    width: 270px;
+    height: 400px;
+    border-radius: 25%;
+    border: 20px;
+}
+.nerko {
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .margem{
     margin: 0px;
     border: 1px solid black;
     padding: 10px;
@@ -31,5 +51,14 @@ nav {
   a:hover{
     color: blue;
   }
+  nav {
+    background-color: #000000;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+iframe{
+    margin-left: 870px;
+    
+}
 
 
