@@ -3,5 +3,33 @@ nav {
     padding: 10px;
     font-family: 'Courier New', Courier, monospace;
 }
+{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+.margem{
+    margin: 0px;
+    border: 1px solid black;
+    padding: 10px;
+  }
+  .paddingEsq {
+    padding-left: 200px;
+  }
+  ul{
+    margin: 0px;
+    padding: 0px;
+  }
+  li{
+    display: inline;
+    margin-right: 20px;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+    }
+  a:hover{
+    color: blue;
+  }
 
 
