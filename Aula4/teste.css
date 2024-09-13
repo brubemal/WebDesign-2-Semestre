@@ -1,0 +1,40 @@
+img {
+    width: 120px;
+    height: 120px;
+}
+
+
+main {
+    display: flex;
+    height: 97vh;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    background-color: gray;
+    width: 50%;
+
+
+}
+
+.mainContainer{
+    display: flex;
+    justify-content: center;
+}
+.circle {
+    border-radius: 50%;
+}
+
+
+.cat {
+    border: 5px solid #25fc09;
+}
+
+
+.camel {
+    border: 5px solid #c9bf07;
+}
+
+
+.horse {
+    border: 5px solid #ee0b0b;;
+}
