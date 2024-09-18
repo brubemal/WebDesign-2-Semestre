@@ -1,0 +1,12 @@
+img{
+  width: 120px;
+  height: 120px;
+}
+main {
+  display: flex;
+  align-items: flex-start;
+    height: 97vh;
+  }
+  .horse {
+    align-self: flex-end;
+    }

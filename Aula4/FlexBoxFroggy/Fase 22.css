@@ -1,0 +1,12 @@
+img{
+  width: 120px;
+  height: 120px;
+}
+main{
+  display: flex;
+  flex-wrap: wrap;
+  height: 97vh;
+  width: 50vh;
+  align-content: flex-end;
+}
+
