@@ -1,0 +1,55 @@
+main{
+    height: 97vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.celular{
+    display: flex;
+    margin-top: 100px;
+    margin-right: 165px;
+}
+img{
+    width: 492px;
+    height: 1031px;
+}
+.titulo{
+    font-family: "Red Rose", serif;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: left;
+    font-style: normal;
+}
+.div_text{
+    display: flex;
+    margin-top: 160px;
+    margin-left: 165px;
+    width: 520px;
+    height: 330px;
+    flex-direction: column;
+}
+p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 16px;
+    color: #6F7CB2;
+}
+.btn_esq{
+    width: 190px;
+    height: 36px;
+    background-color: #111B47;
+    color: white;
+    margin-right: 29px;
+    margin-left: 56px;
+    margin-top: 52px;
+}
+.btn_dir{
+    width: 190px;
+    height: 36px;
+    background-color: white;
+    color: black;
+    border-color: black;
+}
+
+
