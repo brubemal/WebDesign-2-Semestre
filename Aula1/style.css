@@ -54,5 +54,11 @@ iframe{
     margin-left: 870px;
     
 }
+.me{
+  display: flex;
+  border-radius: 15%;
+  border: #000000;
+  justify-content: flex-start;
+}
 
 
