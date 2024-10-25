@@ -19,3 +19,13 @@
     display: flex;
     justify-content: space-around;
 }
+.btnst.active{
+    background-color: green;
+    color: white;
+    border-radius: 12px;
+    border: 1px;
+}
+.img1{
+    width: 200px;
+    height: 200px;
+}
