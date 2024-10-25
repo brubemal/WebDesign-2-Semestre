@@ -1,0 +1,21 @@
+.trocaImg{
+    background-color: green;
+    color: white;
+    border-radius: 12px;
+    border: 1px;
+}
+.btng{
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+}
+.imagem{
+    display: flex;
+    align-items: center;
+
+}
+.btnStyle{
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+}
