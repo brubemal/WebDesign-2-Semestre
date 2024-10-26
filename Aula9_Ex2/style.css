@@ -12,7 +12,9 @@ html{
     width: 200px;
     height: 300px;
     border-radius: 15%;
-    background-color: gray;
+    background-color: rgb(128, 128, 128, 0.3);
+    padding-top: 50px;
+    padding-left: 30px;
 
 }
 body{
@@ -23,4 +25,14 @@ button{
     height: 40px;
     border: 0px;
     border-radius: 25%;
+    background-color: rgb(206, 191, 191);
+}
+button:hover{
+    background-color: rgb(238, 229, 229);
+}
+#Calculator{
+    height: 20px;
+    padding-left: 7px;
+    padding-bottom: 20px;
+    border: 0px;
 }
